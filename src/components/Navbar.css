@@ -1,5 +1,8 @@
 .navbar-brand{
-    padding: 2rem;
-    margin: 20px;
-    size:30px;
+    padding: 10px;
+}
+
+.navbar-brand span{
+    text-align: center;
+    size:50px;
 }
