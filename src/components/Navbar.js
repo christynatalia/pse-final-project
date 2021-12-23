@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
 import  { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Navbar() {
+const Navbar = () => {
     return (
-        <div class="Navbar">
-            <div class="Navbar-container">
-               <Link to="/" class="navbar-logo"> 
-                    PSE Project
-               </Link> 
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">PSE Project</a>
             </div>
+            </nav>
         </div>
     )
 }
