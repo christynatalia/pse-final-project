@@ -10,10 +10,15 @@
 .icon-dropdown{
     color: white!important;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
 }
 
-.show>.dropdown-menu {
-    display: block;
-    position: absolute;
-  }
+.dropdown{
+    min-width: 125px;
+}
+
+.dropdown-menu.show{
+    min-width: 80px;
+    border-radius: 5px;
+}
+
