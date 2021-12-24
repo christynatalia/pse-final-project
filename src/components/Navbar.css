@@ -2,7 +2,18 @@
     padding: 10px;
 }
 
-.navbar-brand span{
+.project-title{
     text-align: center;
-    size:50px;
+    font-size:30px;
 }
+
+.icon-dropdown{
+    color: white!important;
+    font-size: 30px;
+    text-align: left;
+}
+
+.show>.dropdown-menu {
+    display: block;
+    position: absolute;
+  }
