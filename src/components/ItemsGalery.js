@@ -42,6 +42,14 @@ const ItemsGalery = () => {
                     </div>
                 </div>
 
+                <div className="container-button">
+                    <div className ="text-center m-5 p-2">
+                        <a className ="btn btn-primary center" href="#" role="button">
+                            Add Room
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
         </>
