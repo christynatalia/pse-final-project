@@ -13,34 +13,15 @@ const ItemsGalery = () => {
             </div>
             <div className="row">
                 <div className='col-md-4'>
-                    <div class="card ml-3 p-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Room Name</h5>
-                            <p class="card-text">Room Description</p>
-                            <a href="#" class="btn btn-primary">Details</a>
+                    <div className="card ml-3 p-2">
+                        <div className="card-body">
+                            <h5 className="card-title">Room Name</h5>
+                            <p className="card-text">Room Description</p>
+                            <a href="/sensors" class="btn btn-primary">Details</a>
                         </div>
                     </div>
                 </div>
-
-                <div className='col-md-4'>
-                    <div class="card ml-3 p-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Room Name</h5>
-                            <p class="card-text">Room Description</p>
-                            <a href="#" class="btn btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='col-md-4'>
-                    <div class="card ml-3 p-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Room Name</h5>
-                            <p class="card-text">Room Description</p>
-                            <a href="#" class="btn btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div className="container-button">
                     <div className ="text-center m-5 p-2">
