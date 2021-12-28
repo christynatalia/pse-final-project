@@ -19,11 +19,11 @@ const SensorsGalery = () => {
             <div className="row">
                 <div className='col-md-4'>
                     <div className="card ml-3 p-2">
-                        <div className="card-body text-center">
+                        <div className="card-body">
                             <h5 className="card-title">Sensors Name</h5>
                             <p className="card-text mx-0 px-0">Sensors Description</p>
                             <p className="card-text mx-0 px-0">Type: AC</p>
-                            <div className="container-button text-center">
+                            <div className="container-button">
                                 <a href="#" className="btn btn-primary turn-button">Turn on</a>
                                 <a href="#" className="btn btn-primary turn-button">Turn off</a>
                             </div>
@@ -32,7 +32,26 @@ const SensorsGalery = () => {
                             <span className="text-temp">Temperature: </span>
                             <a href="#" className="btn bi bi-dash-circle button-temp"></a>
                             <a href="#" className="btn bi bi-plus-circle button-temp"></a>
+                            </div>
 
+                            <div className="container-button mt-3">
+                            <span className="text-fan">Fan: </span>
+                            <a href="#" className="btn bi bi-dash-circle button-temp"></a>
+                            <a href="#" className="btn bi bi-plus-circle button-temp"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='col-md-4'>
+                    <div className="card ml-3 p-2">
+                        <div className="card-body">
+                            <h5 className="card-title">Sensors Name</h5>
+                            <p className="card-text mx-0 px-0">Sensors Description</p>
+                            <p className="card-text mx-0 px-0">Type: Lamp</p>
+                            <div className="container-button">
+                                <a href="#" className="btn btn-primary turn-button">Turn on</a>
+                                <a href="#" className="btn btn-primary turn-button">Turn off</a>
                             </div>
                         </div>
                     </div>
