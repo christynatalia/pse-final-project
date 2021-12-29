@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
 import './SensorsGalery.css';
+import {Link} from 'react-router-dom';
 
 const SensorsGalery = () => {
     return (
@@ -59,12 +60,16 @@ const SensorsGalery = () => {
 
                 <div className="container-button-add">
                     <div className ="text-center m-4 p-2">
-                         <a className ="btn btn-primary btn-footer p-2" href="/" role="button">
-                            Back
-                        </a>
-                        <a className ="btn btn-primary btn-footer p-2" href="/AddSensors" role="button">
-                            Add Sensors
-                        </a>
+                        <Link to="/">
+                            <button className ="btn btn-primary btn-footer p-2" href="/" role="button">
+                                Back
+                            </button>
+                        </Link>
+                        <Link to="/AddSensors">
+                            <button className ="btn btn-primary btn-footer p-2" href="/AddSensors" role="button">
+                                Add Sensors
+                            </button>
+                        </Link>
                         
                     </div>
                 </div>

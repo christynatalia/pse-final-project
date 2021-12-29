@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
+import {Link} from 'react-router-dom';
 
 
 const ItemsGalery = () => {
@@ -17,7 +18,11 @@ const ItemsGalery = () => {
                         <div className="card-body">
                             <h5 className="card-title">Room Name</h5>
                             <p className="card-text">Room Description</p>
-                            <a href="/sensors" class="btn btn-primary">Details</a>
+                            <Link to="/sensors">
+                                <button className="btn btn-primary">
+                                Details
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -25,9 +30,11 @@ const ItemsGalery = () => {
 
                 <div className="container-button">
                     <div className ="text-center m-5 p-2">
-                        <a className ="btn btn-primary center" href="/addRoom" role="button">
-                            Add Room
-                        </a>
+                        <Link to="/addRoom">
+                            <button className ="btn btn-primary center" role="button">
+                                Add Room
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

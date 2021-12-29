@@ -9,9 +9,9 @@ const AddSensors= () => {
     return (
         <>
         <Navbar/>
-        <div className="container-sm pt-4">
+        <div className="container-sm pt-5">
             <Link to="/sensors">
-                <button type="button" className="btn btn-outline-danger btn-lg">Cancel</button>
+                <button type="button" className="btn btn-outline-danger btn-md">Cancel</button>
             </Link>
 
             <div className="row">
