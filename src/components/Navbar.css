@@ -22,7 +22,7 @@
     border-radius: 5px;
 }
 
-.dropdown-item{
-    text-decoration: none!important;
+.navbar-button-text{
+    text-decoration: none;
 }
 
