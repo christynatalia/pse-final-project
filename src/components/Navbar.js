@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Navbar.css';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -23,7 +24,9 @@ const Navbar = () => {
                             </span>
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="#">Notifications</a> 
+                        <Link to="/Notifications">
+                            <button className="dropdown-item text-decoration-none">Notifications</button> 
+                        </Link>
                         </div>
                     </li>
                 </div>

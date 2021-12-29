@@ -26,7 +26,7 @@ const AddSensors= () => {
                                     Name
                                 </label>
                                 <div className="col-sm-10">
-                                <input type="text" id="inputTitle" className="form-control" placeholder="Give title to your post..." />
+                                <input type="text" id="inputTitle" className="form-control" placeholder="ex: AC 1" />
                                 </div>
                             </div>
 

@@ -7,10 +7,13 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import AddRoom from './components/AddRoom';
 import SensorsGalery from './components/SensorsGalery';
 import AddSensors from './components/AddSensors';
+import Notifications from './components/Notifications';
 function App() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={ItemsGalery}>
+      </Route>
+      <Route path="/Notifications" exact component={Notifications}>
       </Route>
       <Route path="/addRoom" exact component={AddRoom}>
       </Route>
